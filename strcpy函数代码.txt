@@ -17,3 +17,6 @@ s2=StrCpy(s1);
 printf("%s",s1);
 printf("%s",s2);}
 
+/**
+remote edit B20041127陈纬昕
+**/
