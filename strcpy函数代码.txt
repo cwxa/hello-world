@@ -17,3 +17,7 @@ s2=StrCpy(s1);
 printf("%s",s1);
 printf("%s",s2);}
 
+/**
+本地编辑
+**/
+
