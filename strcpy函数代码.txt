@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include <string.h>
+#include <stdlib.h>
+char *StrCpy(char *src)
+{int len=0,i;
+char *s;
+len =strlen(src);
+s=(char*)malloc((len+1)*sizeof(char));
+for( i=0;i<len;i++)
+	{s[i]=src[i];
+   }
+s[i]='\0';
+return s;}
+int main()
+{char *s1="q213a\0",*s2=NULL;
+s2=StrCpy(s1);
+printf("%s",s1);
+printf("%s",s2);}
+
